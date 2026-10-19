@@ -1,0 +1,21 @@
+# Secrets and local state (at every depth)
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+logs/
+backups/
+.DS_Store
+# Local vault content must never be committed
+00 Inbox/
+01 Daily/
+02 Knowledge/
+03 Projects/
+04 Courses/
+05 Reading/
+06 Career/
+07 Templates/
+99 Archive/
